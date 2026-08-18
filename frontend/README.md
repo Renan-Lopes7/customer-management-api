@@ -1,4 +1,4 @@
-# console:customers — Frontend de apoio (Modelo B)
+# Frontend de apoio 
 
 Front-end em React (Vite + React Router) para testar o backend Fastify + Prisma.
 Visual escuro, estilo terminal / console de desenvolvedor (monospace, âmbar).
