@@ -1,0 +1,38 @@
+{
+  "name": "t_s",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/server.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon --exec \"tsx --env-file=.env\" src/server.ts",
+    "start": "node --env-file=.env dist/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@prisma/client": "^7.9.1",
+    "@tsconfig/node-lts": "^24.0.0",
+    "@tsconfig/strictest": "^2.0.8",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/node": "^24.13.3",
+    "prisma": "^7.9.1",
+    "tsx": "^4.23.10",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@fastify/cors": "^11.3.0",
+    "@fastify/jwt": "^10.2.1",
+    "@prisma/adapter-mariadb": "^7.9.1",
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "fastify": "^5.11.3",
+    "mariadb": "^3.5.3",
+    "mysql2": "^3.23.3",
+    "nodemon": "^3.1.14",
+    "zod": "^4.4.3"
+  }
+}
