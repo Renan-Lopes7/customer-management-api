@@ -89,12 +89,6 @@ VITE_API_URL=http://localhost:4000
 
 Abre em `http://localhost:5173`.
 
-### Popular o banco com dados de teste (opcional)
-
-```bash
-node --env-file=.env prisma/seed.js 30
-```
-
 ## Screenshots
 
 ### Front-end de apoio
